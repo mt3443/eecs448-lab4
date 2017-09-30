@@ -50,3 +50,26 @@ img {
 #bottleQuantity {
 	width: 24px;
 }
+
+table {
+	margin-top: 24px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#backendPassword {
+	font-size: 24px;
+}
+
+table, th, td, tr{
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+td {
+	width: 110px;
+}
+
+tr {
+	height: 28px;
+}

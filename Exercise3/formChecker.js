@@ -22,6 +22,11 @@ function checkQuantities() {
 		return false;
 	}
 	
+	if(shirtQ == 0 && hatQ == 0 && bottleQ == 0) {
+		alert("You must order at least one item before you submit");
+		return false;
+	}
+	
 	return true;
 }
 

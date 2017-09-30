@@ -12,7 +12,7 @@
 				<div class="price">
 					$30
 				</div>
-				Quantity: <input type="text" onfocus="this.select();" id="shirtQuantity" value="0"></input>
+				Quantity: <input type="text" onfocus="this.select();" id="shirtQuantity" name="shirtQuantity" value="0"></input>
 			</div>
 		
 			<div class="product" id="hat">
@@ -20,7 +20,7 @@
 				<div class="price">
 					<center>$20</center>
 				</div>
-				Quantity: <input type="text" onfocus="this.select();" id="hatQuantity" value="0"></input>
+				Quantity: <input type="text" onfocus="this.select();" id="hatQuantity" name="hatQuantity" value="0"></input>
 			</div>
 		
 			<div class="product" id="bottle">
@@ -28,18 +28,18 @@
 				<div class="price">
 					<center>$15</center>
 				</div>
-				Quantity: <input type="text" onfocus="this.select();" id="bottleQuantity" value="0"></input>
+				Quantity: <input type="text" onfocus="this.select();" id="bottleQuantity" name="bottleQuantity" value="0"></input>
 			</div>
 		
 			<div id="submission">
 				<center>
 				Shipping options: <br>
-				<input type="radio" id="option1" name="shipping" value="7day"> 7 Day (Free)</input><br>
-				<input type="radio" id="option2" name="shipping" value="3day"> 3 Day ($5)</input><br>
-				<input type="radio" id="option3" name="shipping" value="overnight"> Overnight ($50)</input><br><br>
+				<input type="radio" id="option1" name="shipping" value="0"> 7 Day (Free)</input><br>
+				<input type="radio" id="option2" name="shipping" value="5"> 3 Day ($5)</input><br>
+				<input type="radio" id="option3" name="shipping" value="50"> Overnight ($50)</input><br><br>
 				
 				Email: <input type="text" id="email"></input><br>
-				Password: <input type="password" id="password"></input><br><br>
+				Password: <input type="password" id="password" name="password"></input><br><br>
 				
 				<button type="reset">Reset</button>
 				<button type="submit">Submit Order</button>
