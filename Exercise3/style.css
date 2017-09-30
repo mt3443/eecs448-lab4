@@ -1,3 +1,52 @@
 body {
-	background-color: green;
+	font-family: arial;
+}
+
+#header {
+	font-size: 40px;
+}
+
+img {
+	height: 300px;
+	width: 300px;
+}
+
+#shirt {
+	float: left;
+	width: 33%;
+	height: 40%;
+}
+
+#hat {
+	display: inline-block;
+	width: 33%;
+	height: 40%;
+}
+
+#bottle {
+	float: right;
+	width: 33%;
+	height: 40%;
+}
+
+.price {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#submission {
+	margin-top: 100px;
+}
+
+#shirtQuantity {
+	width: 24px;
+}
+
+#hatQuantity {
+	width: 24px;
+}
+
+#bottleQuantity {
+	width: 24px;
 }
