@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="formChecker.js"></script>
+	</head>
+	<body>
+		<form action="customerBackend.php" method="post">
+			<center id="header">KU STORE</center>
+		
+			<div class="product" id="shirt">
+				<img src="http://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_2484000/ff_2484843_full.jpg"/>
+				<div class="price">
+					$30
+				</div>
+				Quantity: <input type="text" id="shirtQuantity" value="0"></input>
+			</div>
+		
+			<div class="product" id="hat">
+				<img src="http://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_1179000/ff_1179416_full.jpg"/>
+				<div class="price">
+					$20
+				</div>
+				Quantity: <input type="text" id="hatQuantity" value="0"></input>
+			</div>
+		
+			<div class="product" id="bottle">
+				<img src="http://www.kubookstore.com/images/product/large/122441.jpg"/>
+				<div class="price">
+					$15
+				</div>
+				Quantity: <input type="text" id="bottleQuantity" value="0"></input>
+			</div>
+		
+			<div id="submission">
+				Shipping options: <br>
+				<input type="radio" class="shipping" name="7day"> 7 Day (Free)</input><br>
+				<input type="radio" class="shipping" name="3day"> 3 Day ($5)</input><br>
+				<input type="radio" class="shipping" name="overnight"> Overnight ($50)</input><br><br>
+				
+				User name: <input type="text" id="username"></input><br>
+				Password: <input type="password" id="password"></input><br><br>
+				
+				<button type="reset">Reset</button>
+				<button type="submit">Submit Order</button>
+			</div>
+		</form>
+	</body>
+</html>
